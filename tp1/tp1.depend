@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1554250463 source:c:\users\daira\desktop\minarro-trabajos-practicos--master\tp12019\tp1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1554250468 source:c:\users\daira\desktop\minarro-trabajos-practicos--master\tp12019\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1554250913 c:\users\daira\desktop\minarro-trabajos-practicos--master\tp12019\tp1\funciones.h
+
+1554250463 source:c:\users\daira\desktop\minarro-trabajos-practicos--master\tp1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
