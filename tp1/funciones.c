@@ -4,7 +4,7 @@
 
 /** \brief suma dos datos
 *
-* \param primer operandor
+* \param primer opera+dor
 * \param segundo operador
 * \return resultado de la operacion
 *
@@ -20,7 +20,7 @@ float suma(float a, float b)
 
 /** \brief resta dos datos
 *
-* \param primer operandor
+* \param primer operador
 * \param segundo operador
 * \return resultado de la operacion
 *
@@ -36,7 +36,7 @@ float resta(float a, float b)
 
 /** \brief multiplica dos datos
 *
-* \param primer operandor
+* \param primer operador
 * \param segundo operador
 * \return resultado de la operacion
 *
@@ -52,7 +52,7 @@ float multiplicacion(float a, float b)
 
 /** \brief multiplica dos datos
 *
-* \param primer operandor
+* \param primer operador
 * \param segundo operador
 * \return resultado de la operacion
 *
@@ -69,7 +69,7 @@ float dividir(float a, float b)
 
 /** \brief Realiza factorial
 *
-* \param operandor
+* \param operador
 * \return resultado de la operacion
 *
 */
@@ -77,10 +77,14 @@ float factorial (float a)
 {
     int i;
     float fact=1;
-    for (i=1;i<=a;i++)
+    if(a == 0 || a == 1)
+        fact = 1;
+    else
     {
-        fact=fact*i;
+        for (i=1;i<=a;i++)
+        {
+            fact=fact*i;
+        }
     }
     return fact;
 }
-
