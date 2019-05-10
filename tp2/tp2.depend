@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1557531811 source:c:\users\daira\desktop\tp2\main.c
+	<stdlib.h>
+	"ArrayEmployees.h"
+
+1557532116 c:\users\daira\desktop\tp2\arrayemployees.h
+
+1557532086 source:c:\users\daira\desktop\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<strings.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"ArrayEmployees.h"
+
